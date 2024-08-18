@@ -6,7 +6,7 @@ import WatchList from "./pages/watchlist/watchlist";
 const routes: RouteObject[] = [
   {
     path: "/",
-    element: <Overview />,
+    element: <Navigate to="/overview" />,
   },
   {
     path: "",
