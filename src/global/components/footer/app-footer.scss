@@ -1,0 +1,33 @@
+.app-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 48px;
+
+  background-color: var(--black-1);
+
+  .nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 2px 8px;
+    color: var(--white);
+    text-decoration: none;
+
+    &.active {
+      background-color: var(--white);
+      color: var(--black-1);
+      border-radius: 12px;
+
+      img {
+        filter: invert(85%) sepia(90%) saturate(97%) hue-rotate(210deg)
+          brightness(117%) contrast(101%);
+      }
+    }
+
+    img {
+      width: 24px;
+    }
+  }
+}
